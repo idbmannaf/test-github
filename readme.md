@@ -36,4 +36,12 @@
     # get all comment history/ Log history
     git log # you can add --oneline then you will see comment messages only
 
+
+    # Need to go preveous change// Get preveous version / Reveart
+    # how to revart commit history
+    git status
+    git reset --hard 0a7421d # [after hard you need to use git commit id ]
+
+
+
 ```
