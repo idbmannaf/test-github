@@ -33,5 +33,7 @@
 
     git commit -m "This is new Commit" # [ -m For message]
 
+    # get all comment history/ Log history
+    git log # you can add --oneline then you will see comment messages only
 
 ```
