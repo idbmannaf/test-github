@@ -75,8 +75,14 @@
 ## Branch
 
 ```bash
-    git status
-            #____ Git er status check korar jonno
+    git branch --list
+            #____ check all branches
+
+    git branch  dev/add-heading-text
+            #____ create a new branch
+
+    git switch  dev/add-heading-text
+            #____ onno branch e switch ba jete
 
 
 ```
