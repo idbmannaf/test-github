@@ -13,7 +13,7 @@
     git config --global user.email "idbmannaf@gmail.com"
 ```
 
-## How to connect multiple user in same window
+## Some Comment
 
 ```bash
     # Check Git Status
@@ -66,8 +66,17 @@
     git rm
             #____ PARAM: filename like git rm help.txt
             #____ kono ekta file jeta git track korchilo seit file take amra tracking theke remove korte pari and amara file ke delete korte pari jodi working directory theke file ta kaj e na lage
-            #____ file permanently  remove korar jonno git commit korte hobe
+            #____ file permanently  remove korar jonno "git addd and git commit" korte hobe
 
+
+
+```
+
+## Branch
+
+```bash
+    git status
+            #____ Git er status check korar jonno
 
 
 ```
