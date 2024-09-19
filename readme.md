@@ -78,10 +78,16 @@
     git branch --list
             #____ check all branches
 
-    git branch  dev/add-heading-text
+    git branch  dev/add-heading-test-in-testing.md
             #____ create a new branch
 
-    git switch  dev/add-heading-text
+    git switch  dev/add-heading-test-in-testing.md
+            #____ onno branch e switch ba jete
+
+
+    #je branch theke marge korte hobe age sei branch e jete hobe. and kon branch ke marge korte hobe sei branch ke tene niye eshe marge korte hobe
+
+    git switch  dev/add-heading-test-in-testing.md
             #____ onno branch e switch ba jete
 
 
