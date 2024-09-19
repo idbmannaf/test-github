@@ -18,29 +18,55 @@
 ```bash
     # Check Git Status
     git status
-    ## if you want to inisialize git in loacal then you need to run
+            #____ Git er status check korar jonno
+
     git init
+            #____ Git inisialize korar jonno
 
-    # if you run ls command then you will doesn't show .git file You need to run
-
-    #show all files include hidden files
     ls -a
+            #____ hidden file soho file dekhar jonno
 
     # for git track files'/ Staging Comment [if you want to add many nested file then you need to run --all]
+
     git add { . / FILENAME/ --all }
-
-    #commit the tracked/Staging files
-
-    git commit -m "This is new Commit" # [ -m For message]
-
-    # get all comment history/ Log history
-    git log # you can add --oneline then you will see comment messages only
+            #____  git track korar jonno
+            #____ . diye all files add korar jonno
+            #____ FILENAME diye ekti file add korar jonno
+            #____ --all diye sob file add korar jonno
 
 
-    # Need to go preveous change// Get preveous version / Reveart
+
+    git commit -m "This is new Commit"
+             #____  commit the tracked/Staging files
+             #____  Commit korar jonno/ file ke track korar jonno
+             #____  -m For message
+
+    git log
+
+            #____ you can use parame like --oneline
+            #____ Commit history check korar jonno
+            #____ --oneline babohar korle sudhu commit id and commit name dekha jay
+
+
+
+
     # how to revart commit history
     git status
-    git reset --hard 0a7421d # [after hard you need to use git commit id ]
+    git reset --hard 0a7421d
+            #____ you can use parame like --hard, --soft, etc. last is commit id and must type it
+            #____ commit revart korar jonno
+            #____ vul e commit hoye gele ager commit e ferot jawar jonno
+            #____ Change HEAD
+
+
+    git reflog
+            #____ jodi ami vul e back commit or next commit e HEAD kor then abar jekono commit e fire jawar jonno commit id dorkar . ekhane all commit it dekhte pabe
+            #____ jodi ei comment run kori tahole amra HEAD{0} for latest and continue
+
+    git rm
+            #____ PARAM: filename like git rm help.txt
+            #____ kono ekta file jeta git track korchilo seit file take amra tracking theke remove korte pari and amara file ke delete korte pari jodi working directory theke file ta kaj e na lage
+            #____ file permanently  remove korar jonno git commit korte hobe
 
 
 
