@@ -26,7 +26,12 @@
     #show all files include hidden files
     ls -a
 
-    # for git track files
-    git add { . / FILENAME }
+    # for git track files'/ Staging Comment [if you want to add many nested file then you need to run --all]
+    git add { . / FILENAME/ --all }
+
+    #commit the tracked/Staging files
+
+    git commit -m "This is new Commit" # [ -m For message]
+
 
 ```
